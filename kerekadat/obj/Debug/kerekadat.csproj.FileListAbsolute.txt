@@ -1,0 +1,6 @@
+c:\users\sza\documents\visual studio 2015\Projects\kerekadat\kerekadat\bin\Debug\kerekadat.exe.config
+C:\Users\SzA\documents\visual studio 2015\Projects\kerekadat\kerekadat\bin\Debug\kerekadat.exe
+C:\Users\SzA\documents\visual studio 2015\Projects\kerekadat\kerekadat\bin\Debug\kerekadat.pdb
+C:\Users\SzA\documents\visual studio 2015\Projects\kerekadat\kerekadat\obj\Debug\kerekadat.csprojResolveAssemblyReference.cache
+C:\Users\SzA\documents\visual studio 2015\Projects\kerekadat\kerekadat\obj\Debug\kerekadat.exe
+C:\Users\SzA\documents\visual studio 2015\Projects\kerekadat\kerekadat\obj\Debug\kerekadat.pdb
