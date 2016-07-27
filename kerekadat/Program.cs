@@ -17,12 +17,22 @@ namespace kerekadat
                 
                 StreamReader r = new StreamReader("kerekadat.txt");
                 StreamWriter w;
+                string date = DateTime.Now.Date.ToShortDateString();
+                string hh = DateTime.Now.Hour.ToString();
+                string mm = DateTime.Now.Minute.ToString();
+                string ss = DateTime.Now.Second.ToString();
+                string path = date + " " + hh + "." + mm + "." + ss;
+                Directory.CreateDirectory(path);
+                
+                
+                
                 while (!r.EndOfStream)
                 {
                     string svv = "";
                     string[] sv = r.ReadLine().Split(';');
-                     svv=sv[sv.Length - 1].Substring(5,5);
-                    w = new StreamWriter(sv[sv.Length - 1].Substring(0, 5) + svv+".txt",true);
+                     svv=sv[sv.Length - 1].Substring(9,5);
+                    
+                    w = new StreamWriter(path+"\\"+sv[sv.Length - 1].Substring(4, 5) + svv+".txt",true);
                     string ssv = "";
                     ssv += sv[0];
                     for (int i = 1; i < sv.Length; i++)
